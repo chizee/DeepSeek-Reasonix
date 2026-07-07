@@ -1,0 +1,6 @@
+version: "1"
+rules:
+  - base: main
+    upstream: esengine:main-v2
+    mergeMethod: hardreset
+    mergeUnstable: true
